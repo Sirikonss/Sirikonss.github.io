@@ -1,0 +1,748 @@
+.mediaViewInfo {
+	--web-view-name: works;
+	--web-view-id: works;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: works;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#works {
+	position: absolute;
+	width: 1920px;
+	height: 3293px;
+	background-color: rgba(245,239,239,1);
+	overflow: hidden;
+	--web-view-name: works;
+	--web-view-id: works;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Nav_bc {
+	position: absolute;
+	width: 1554px;
+	height: 66.667px;
+	left: 202px;
+	top: 82px;
+	overflow: visible;
+}
+#Home_bc {
+	left: 943px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: home.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Works_bda {
+	left: 1263px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Certificates_bdb {
+	left: 1433px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Skills_bdc {
+	left: 1108px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: skills.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#SIRIKONSS_bdd {
+	left: 119px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(204,153,153,1);
+}
+#icon_bde {
+	position: absolute;
+	width: 100px;
+	height: 66.667px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Icon_material-laptop_bdf {
+	fill: rgba(114,114,114,1);
+}
+.Icon_material-laptop_bdf {
+	overflow: visible;
+	position: absolute;
+	width: 100px;
+	height: 66.667px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-code_bdg {
+	fill: rgba(213,140,140,1);
+}
+.Icon_awesome-code_bdg {
+	overflow: visible;
+	position: absolute;
+	width: 45.004px;
+	height: 35.997px;
+	left: 27px;
+	top: 11px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#proj-fruto {
+	position: absolute;
+	width: 1517px;
+	height: 707.397px;
+	left: 201.5px;
+	top: 242.603px;
+	overflow: visible;
+}
+#fruto1 {
+	position: absolute;
+	width: 600px;
+	height: 396.043px;
+	left: 53.5px;
+	top: 133.397px;
+	overflow: visible;
+}
+#fruto2 {
+	position: absolute;
+	width: 280px;
+	height: 184.82px;
+	left: 1184.5px;
+	top: 144.397px;
+	overflow: visible;
+}
+#fruto3 {
+	position: absolute;
+	width: 280px;
+	height: 184.82px;
+	left: 1184.5px;
+	top: 324.397px;
+	overflow: visible;
+}
+#fruto4 {
+	position: absolute;
+	width: 600px;
+	height: 396.043px;
+	left: 609.5px;
+	top: 133.397px;
+	overflow: visible;
+}
+#Fruto {
+	left: 706.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(217,127,127,1);
+}
+#Line_1_bdn {
+	opacity: 0.5;
+	fill: transparent;
+	stroke: rgba(114,114,114,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1_bdn {
+	overflow: visible;
+	position: absolute;
+	width: 1517.007px;
+	height: 12px;
+	left: 0px;
+	top: 71.897px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Python {
+	position: absolute;
+	width: 146px;
+	height: 56px;
+	left: 664.5px;
+	top: 542.397px;
+	overflow: visible;
+}
+#Rectangle_60 {
+	fill: rgba(77,157,227,1);
+}
+.Rectangle_60 {
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#Python_bdq {
+	left: 42px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18 {
+	fill: rgba(247,205,0,1);
+}
+.Ellipse_18 {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#______Fruto_is_the_game_coding {
+	left: 50.5px;
+	top: 636.397px;
+	position: absolute;
+	overflow: visible;
+	width: 1417px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(114,114,114,1);
+}
+#proj-sleepy {
+	position: absolute;
+	width: 1517px;
+	height: 1061.897px;
+	left: 201.5px;
+	top: 1119.603px;
+	overflow: visible;
+}
+#Sleepy {
+	left: 689.5px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(217,127,127,1);
+}
+#Line_2 {
+	opacity: 0.5;
+	fill: transparent;
+	stroke: rgba(114,114,114,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 1517.007px;
+	height: 12px;
+	left: 0px;
+	top: 72.897px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#html {
+	position: absolute;
+	width: 146px;
+	height: 56px;
+	left: 463.5px;
+	top: 554.397px;
+	overflow: visible;
+}
+#Rectangle_60_bdx {
+	fill: rgba(230,76,24,1);
+}
+.Rectangle_60_bdx {
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#HTML5_bdy {
+	left: 42px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_bdz {
+	fill: rgba(247,205,0,1);
+}
+.Ellipse_18_bdz {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#css_bd {
+	position: absolute;
+	width: 146px;
+	height: 56px;
+	left: 646.5px;
+	top: 554.397px;
+	overflow: visible;
+}
+#Rectangle_60_bd {
+	fill: rgba(15,115,195,1);
+}
+.Rectangle_60_bd {
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#CSS3_bd {
+	left: 42px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_bd {
+	fill: rgba(247,205,0,1);
+}
+.Ellipse_18_bd {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#sleepy1 {
+	filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.6));
+	position: absolute;
+	width: 600px;
+	height: 342.5px;
+	left: 138.5px;
+	top: 157.397px;
+	overflow: visible;
+}
+#sleepy2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.6));
+	position: absolute;
+	width: 600px;
+	height: 341.904px;
+	left: 778.5px;
+	top: 157.397px;
+	overflow: visible;
+}
+#css_bea {
+	position: absolute;
+	width: 182px;
+	height: 56px;
+	left: 829.5px;
+	top: 554.397px;
+	overflow: visible;
+}
+#Rectangle_60_bea {
+	fill: rgba(228,186,66,1);
+}
+.Rectangle_60_bea {
+	position: absolute;
+	overflow: visible;
+	width: 182px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#JavaScript_bd {
+	left: 47px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_bea {
+	fill: rgba(11,11,11,1);
+}
+.Ellipse_18_bea {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#______Sleepy_is_the_website_to {
+	left: 135.5px;
+	top: 665.397px;
+	position: absolute;
+	overflow: visible;
+	width: 1248px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(114,114,114,1);
+}
+#Vacseen {
+	left: 674.5px;
+	top: 973px;
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(217,127,127,1);
+}
+#Line_3 {
+	opacity: 0.5;
+	fill: transparent;
+	stroke: rgba(114,114,114,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 1517.007px;
+	height: 12px;
+	left: 0px;
+	top: 1050.897px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Screen_Shot_2563-10-31_at_2009 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.6));
+	position: absolute;
+	width: 603.96px;
+	height: 345px;
+	left: 672px;
+	top: 2258px;
+	overflow: visible;
+}
+#______Sleepy_is_the_website_to_bee {
+	left: 337px;
+	top: 1785px;
+	position: absolute;
+	overflow: visible;
+	width: 1248px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(114,114,114,1);
+}
+#html_bef {
+	position: absolute;
+	width: 146px;
+	height: 56px;
+	left: 791px;
+	top: 2661px;
+	overflow: visible;
+}
+#Rectangle_60_beg {
+	fill: rgba(230,76,24,1);
+}
+.Rectangle_60_beg {
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#HTML5_beh {
+	left: 42px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_bei {
+	fill: rgba(247,205,0,1);
+}
+.Ellipse_18_bei {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#css_bej {
+	position: absolute;
+	width: 146px;
+	height: 56px;
+	left: 974px;
+	top: 2661px;
+	overflow: visible;
+}
+#Rectangle_60_bek {
+	fill: rgba(15,115,195,1);
+}
+.Rectangle_60_bek {
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#CSS3_bel {
+	left: 42px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_bem {
+	fill: rgba(247,205,0,1);
+}
+.Ellipse_18_bem {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#css_ben {
+	position: absolute;
+	width: 182px;
+	height: 56px;
+	left: 1157px;
+	top: 2661px;
+	overflow: visible;
+}
+#Rectangle_60_beo {
+	fill: rgba(228,186,66,1);
+}
+.Rectangle_60_beo {
+	position: absolute;
+	overflow: visible;
+	width: 182px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#JavaScript_bep {
+	left: 47px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_beq {
+	fill: rgba(11,11,11,1);
+}
+.Ellipse_18_beq {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#______Vacseen_is_an_online_tra {
+	left: 337px;
+	top: 2772px;
+	position: absolute;
+	overflow: visible;
+	width: 1372px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -8px;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(114,114,114,1);
+}
+#Python_bes {
+	position: absolute;
+	width: 146px;
+	height: 56px;
+	left: 608px;
+	top: 2661px;
+	overflow: visible;
+}
+#Rectangle_60_bet {
+	fill: rgba(77,157,227,1);
+}
+.Rectangle_60_bet {
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#Python_beu {
+	left: 42px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_bev {
+	fill: rgba(247,205,0,1);
+}
+.Ellipse_18_bev {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
