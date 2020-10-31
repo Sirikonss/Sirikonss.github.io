@@ -1,0 +1,1716 @@
+.mediaViewInfo {
+	--web-view-name: skills;
+	--web-view-id: skills;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: skills;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#skills {
+	position: absolute;
+	width: 1920px;
+	height: 1662px;
+	background-color: rgba(245,239,239,1);
+	overflow: hidden;
+	--web-view-name: skills;
+	--web-view-id: skills;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Nav_ {
+	position: absolute;
+	width: 1517px;
+	height: 66.667px;
+	left: 202px;
+	top: 82px;
+	overflow: visible;
+}
+#Home_ {
+	left: 943px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Works_ {
+	left: 1263px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Contact_ {
+	left: 1433px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Skills_ {
+	left: 1108px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#SIRIKONSS_ {
+	left: 119px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(204,153,153,1);
+}
+#icon_ {
+	position: absolute;
+	width: 100px;
+	height: 66.667px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Icon_material-laptop_ {
+	fill: rgba(114,114,114,1);
+}
+.Icon_material-laptop_ {
+	overflow: visible;
+	position: absolute;
+	width: 100px;
+	height: 66.667px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-code_ {
+	fill: rgba(213,140,140,1);
+}
+.Icon_awesome-code_ {
+	overflow: visible;
+	position: absolute;
+	width: 45.003px;
+	height: 35.997px;
+	left: 27px;
+	top: 11px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Skills_a {
+	left: 859px;
+	top: 235.603px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(217,127,127,1);
+}
+#Line_1 {
+	opacity: 0.5;
+	fill: transparent;
+	stroke: rgba(114,114,114,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1517.007px;
+	height: 12px;
+	left: 201.5px;
+	top: 314.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#skill_card-py {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 238px;
+	top: 373px;
+	overflow: visible;
+}
+#Rectangle_18 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18 {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19 {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7 {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8 {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9 {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#python {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 64.32px;
+	top: 71.06px;
+	overflow: visible;
+}
+#Python_i {
+	left: 88px;
+	top: 193.574px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#skill_card-java {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 543px;
+	top: 373px;
+	overflow: visible;
+}
+#Rectangle_18_l {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_l {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_m {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_m {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_n {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_n {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_o {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_o {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_p {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_p {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Java {
+	left: 96px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#java {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 64px;
+	top: 71px;
+	overflow: visible;
+}
+#INTERMEDIATED_s {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#skill_card-js {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 848px;
+	top: 373px;
+	overflow: visible;
+}
+#Rectangle_18_u {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_u {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_v {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_v {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_w {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_w {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_x {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_x {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_y {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_y {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#JavaScript {
+	left: 75px;
+	top: 193.574px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER {
+	left: 66px;
+	top: 224px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#javascript {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 71px;
+	overflow: visible;
+}
+#skill_card-html {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 1153px;
+	top: 373px;
+	overflow: visible;
+}
+#Rectangle_18_ {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_ {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_ {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_ {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_ {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_ {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_ {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#HTML5 {
+	left: 87px;
+	top: 193.574px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_ {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#html-5 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-css {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 1458px;
+	top: 373px;
+	overflow: visible;
+}
+#Rectangle_18_c {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_c {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_d {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_d {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_e {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_e {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_f {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_f {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_g {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_g {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#CSS3 {
+	left: 93px;
+	top: 193.574px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_i {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#css {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-cpp {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 238px;
+	top: 689px;
+	overflow: visible;
+}
+#Rectangle_18_m {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_m {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_n {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_n {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_o {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_o {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_p {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_p {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_q {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_q {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#C {
+	left: 98px;
+	top: 192.574px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_r {
+	left: 63px;
+	top: 220px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#c {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-react {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 543px;
+	top: 689px;
+	overflow: visible;
+}
+#Rectangle_18_v {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_v {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_w {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_w {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_x {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_x {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_y {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_y {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_z {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_z {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#React {
+	left: 96px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#react {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 73px;
+	overflow: visible;
+}
+#BEGINNER_ {
+	left: 66px;
+	top: 225px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#skill_card-node {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 848px;
+	top: 689px;
+	overflow: visible;
+}
+#Rectangle_18_a {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_a {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_a {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_a {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_a {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_a {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_a {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_a {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_a {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_a {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#NodeJS {
+	left: 83px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_a {
+	left: 66px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#nodejs {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 71px;
+	overflow: visible;
+}
+#skill_card-bootstrap {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 1153px;
+	top: 689px;
+	overflow: visible;
+}
+#Rectangle_18_d {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_d {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_e {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_e {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_f {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_f {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_g {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_g {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_h {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_h {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Bootstrap {
+	left: 78px;
+	top: 192.574px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_j {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#Image_1 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-mysql {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 1458px;
+	top: 689px;
+	overflow: visible;
+}
+#Rectangle_18_n {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_n {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_o {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_o {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_p {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_p {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_q {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_q {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_r {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_r {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#MySQL {
+	left: 93px;
+	top: 193.574px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_r {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#mysql {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-docker {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 238px;
+	top: 1005px;
+	overflow: visible;
+}
+#Rectangle_18_w {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_w {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_x {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_x {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_y {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_y {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_z {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_z {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_b {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_b {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Docker {
+	left: 87px;
+	top: 194.574px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_b {
+	left: 63px;
+	top: 220px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#docker {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 74px;
+	overflow: visible;
+}
+#skill_card-github {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 543px;
+	top: 1005px;
+	overflow: visible;
+}
+#Rectangle_18_b {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_b {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_b {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_b {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_b {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_b {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_b {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_b {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_c {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_c {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#GitHub {
+	left: 89px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#github {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 73px;
+	overflow: visible;
+}
+#skill_card-node_a {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 848px;
+	top: 1005px;
+	overflow: visible;
+}
+#Rectangle_18_e {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_e {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_c {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_c {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_d {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_d {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_e {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_e {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_f {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_f {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#NodeJS_g {
+	left: 83px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_h {
+	left: 66px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#nodejs_i {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 71px;
+	overflow: visible;
+}
+#skill_card-bootstrap_j {
+	position: absolute;
+	width: 790px;
+	height: 268px;
+	left: 588px;
+	top: 1005px;
+	overflow: visible;
+}
+#Rectangle_18_k {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_k {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 565px;
+	top: 0px;
+}
+#Rectangle_19_l {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_l {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 565px;
+	top: 0px;
+}
+#Ellipse_7_m {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_m {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 752px;
+	top: 15px;
+}
+#Ellipse_8_n {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_n {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 724px;
+	top: 15px;
+}
+#Ellipse_9_o {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_o {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 696.156px;
+	top: 15px;
+}
+#Bootstrap_p {
+	left: 643px;
+	top: 192.574px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_t {
+	left: 607px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#Image_1_r {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 628px;
+	top: 72px;
+	overflow: visible;
+}
+#INTERMEDIATED_t {
+	left: 607px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#INTERMEDIATED_u {
+	left: 0px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#skill_card-tableau {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 1458px;
+	top: 1005px;
+	overflow: visible;
+}
+#Rectangle_18_x {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_x {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_y {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_y {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_z {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_z {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_c {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_c {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_d {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_d {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Tableau {
+	left: 85px;
+	top: 192.574px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#Image_2 {
+	position: absolute;
+	width: 100px;
+	height: 98.68px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#BEGINNER_c {
+	left: 66px;
+	top: 222px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
