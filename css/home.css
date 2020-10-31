@@ -1,13 +1,13 @@
 .mediaViewInfo {
-	--web-view-name: index;
-	--web-view-id: index;
+	--web-view-name: home;
+	--web-view-id: home;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: width;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: index;
+	--web-view-ids: home;
 }
 * {
 	margin: 0;
@@ -15,14 +15,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-#index {
+#home {
 	position: absolute;
 	width: 1920px;
 	height: 2164px;
-	background-color: rgba(255,253,253,1);
+	background-color: rgba(245,239,239,1);
 	overflow: hidden;
-	--web-view-name: index;
-	--web-view-id: index;
+	--web-view-name: home;
+	--web-view-id: home;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: width;
 	--web-scale-on-resize: true;
@@ -144,7 +144,7 @@
 	top: 82px;
 	overflow: visible;
 }
-#Home {
+#Home_s {
 	left: 943px;
 	top: 18px;
 	position: absolute;
@@ -165,6 +165,10 @@
 	overflow: visible;
 	width: 70px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: works.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
@@ -258,9 +262,20 @@
 	top: 1082px;
 	overflow: visible;
 }
-#Rectangle_2 {
+#Rectangle_59 {
 	opacity: 0.15;
 	fill: rgba(221,221,221,1);
+}
+.Rectangle_59 {
+	position: absolute;
+	overflow: visible;
+	width: 1354px;
+	height: 1082px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_2 {
+	fill: rgba(250,248,248,1);
 }
 .Rectangle_2 {
 	position: absolute;
@@ -6019,7 +6034,7 @@
 	font-size: 24px;
 	color: rgba(0,0,0,1);
 }
-#Contact_rr {
+#Contact_ru {
 	left: 111px;
 	top: 176px;
 	position: absolute;
@@ -6037,8 +6052,8 @@
 	position: absolute;
 	width: 115.072px;
 	height: 130.316px;
-	left: 1696.61px;
-	top: 1589.592px;
+	left: 342.61px;
+	top: 507.592px;
 	overflow: visible;
 }
 #Group_1454 {
@@ -6346,7 +6361,7 @@
 	width: 1.775px;
 	height: 4.109px;
 	left: 8.66px;
-	top: 8.457px;
+	top: 8.458px;
 	overflow: visible;
 }
 #Group_1169 {
@@ -7846,7 +7861,7 @@
 	width: 8.548px;
 	height: 7.957px;
 	left: 47.988px;
-	top: 40.307px;
+	top: 40.306px;
 	overflow: visible;
 }
 #Group_1307 {

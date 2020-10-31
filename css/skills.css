@@ -18,7 +18,7 @@
 #skills {
 	position: absolute;
 	width: 1920px;
-	height: 1662px;
+	height: 3285px;
 	background-color: rgba(245,239,239,1);
 	overflow: hidden;
 	--web-view-name: skills;
@@ -40,13 +40,13 @@
 }
 #Nav_ {
 	position: absolute;
-	width: 1517px;
+	width: 1554px;
 	height: 66.667px;
 	left: 202px;
 	top: 82px;
 	overflow: visible;
 }
-#Home_ {
+#Home {
 	left: 943px;
 	top: 18px;
 	position: absolute;
@@ -55,7 +55,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: index.html;
+	--web-action-target: home.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
@@ -71,6 +71,10 @@
 	overflow: visible;
 	width: 70px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: works.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
@@ -78,12 +82,12 @@
 	font-size: 24px;
 	color: rgba(0,0,0,1);
 }
-#Contact_ {
+#Certificates {
 	left: 1433px;
 	top: 18px;
 	position: absolute;
 	overflow: visible;
-	width: 85px;
+	width: 122px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
@@ -128,10 +132,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#Icon_material-laptop_ {
+#Icon_material-laptop_a {
 	fill: rgba(114,114,114,1);
 }
-.Icon_material-laptop_ {
+.Icon_material-laptop_a {
 	overflow: visible;
 	position: absolute;
 	width: 100px;
@@ -140,10 +144,10 @@
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-code_ {
+#Icon_awesome-code_b {
 	fill: rgba(213,140,140,1);
 }
-.Icon_awesome-code_ {
+.Icon_awesome-code_b {
 	overflow: visible;
 	position: absolute;
 	width: 45.003px;
@@ -152,7 +156,7 @@
 	top: 11px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Skills_a {
+#Skills_c {
 	left: 859px;
 	top: 235.603px;
 	position: absolute;
@@ -185,12 +189,20 @@
 	top: 314.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
+#Professional_Skills {
+	position: absolute;
+	width: 1445px;
+	height: 1002.397px;
+	left: 238px;
+	top: 366.603px;
+	overflow: visible;
+}
 #skill_card-py {
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 238px;
-	top: 373px;
+	left: 0px;
+	top: 102.397px;
 	overflow: visible;
 }
 #Rectangle_18 {
@@ -258,7 +270,7 @@
 	top: 71.06px;
 	overflow: visible;
 }
-#Python_i {
+#Python_m {
 	left: 88px;
 	top: 193.574px;
 	position: absolute;
@@ -290,14 +302,14 @@
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 543px;
-	top: 373px;
+	left: 305px;
+	top: 102.397px;
 	overflow: visible;
 }
-#Rectangle_18_l {
+#Rectangle_18_p {
 	fill: rgba(255,255,255,1);
 }
-.Rectangle_18_l {
+.Rectangle_18_p {
 	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -306,11 +318,11 @@
 	left: 0px;
 	top: 0px;
 }
-#Rectangle_19_m {
+#Rectangle_19_q {
 	opacity: 0.2;
 	fill: rgba(64,25,28,1);
 }
-.Rectangle_19_m {
+.Rectangle_19_q {
 	position: absolute;
 	overflow: visible;
 	width: 225px;
@@ -318,10 +330,10 @@
 	left: 0px;
 	top: 0px;
 }
-#Ellipse_7_n {
+#Ellipse_7_r {
 	fill: rgba(224,85,85,1);
 }
-.Ellipse_7_n {
+.Ellipse_7_r {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -329,10 +341,10 @@
 	left: 187px;
 	top: 15px;
 }
-#Ellipse_8_o {
+#Ellipse_8_s {
 	fill: rgba(163,162,168,1);
 }
-.Ellipse_8_o {
+.Ellipse_8_s {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -340,10 +352,10 @@
 	left: 159px;
 	top: 15px;
 }
-#Ellipse_9_p {
+#Ellipse_9_t {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_p {
+.Ellipse_9_t {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -373,7 +385,7 @@
 	top: 71px;
 	overflow: visible;
 }
-#INTERMEDIATED_s {
+#INTERMEDIATED_w {
 	left: 42px;
 	top: 223px;
 	position: absolute;
@@ -391,14 +403,14 @@
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 848px;
-	top: 373px;
+	left: 610px;
+	top: 102.397px;
 	overflow: visible;
 }
-#Rectangle_18_u {
+#Rectangle_18_y {
 	fill: rgba(255,255,255,1);
 }
-.Rectangle_18_u {
+.Rectangle_18_y {
 	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -407,11 +419,11 @@
 	left: 0px;
 	top: 0px;
 }
-#Rectangle_19_v {
+#Rectangle_19_z {
 	opacity: 0.2;
 	fill: rgba(64,25,28,1);
 }
-.Rectangle_19_v {
+.Rectangle_19_z {
 	position: absolute;
 	overflow: visible;
 	width: 225px;
@@ -419,10 +431,10 @@
 	left: 0px;
 	top: 0px;
 }
-#Ellipse_7_w {
+#Ellipse_7_ {
 	fill: rgba(224,85,85,1);
 }
-.Ellipse_7_w {
+.Ellipse_7_ {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -430,10 +442,10 @@
 	left: 187px;
 	top: 15px;
 }
-#Ellipse_8_x {
+#Ellipse_8_ {
 	fill: rgba(163,162,168,1);
 }
-.Ellipse_8_x {
+.Ellipse_8_ {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -441,10 +453,10 @@
 	left: 159px;
 	top: 15px;
 }
-#Ellipse_9_y {
+#Ellipse_9_ {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_y {
+.Ellipse_9_ {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -492,8 +504,8 @@
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 1153px;
-	top: 373px;
+	left: 915px;
+	top: 102.397px;
 	overflow: visible;
 }
 #Rectangle_18_ {
@@ -520,10 +532,10 @@
 	left: 0px;
 	top: 0px;
 }
-#Ellipse_7_ {
+#Ellipse_7_a {
 	fill: rgba(224,85,85,1);
 }
-.Ellipse_7_ {
+.Ellipse_7_a {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -531,10 +543,10 @@
 	left: 187px;
 	top: 15px;
 }
-#Ellipse_8_ {
+#Ellipse_8_a {
 	fill: rgba(163,162,168,1);
 }
-.Ellipse_8_ {
+.Ellipse_8_a {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -542,10 +554,10 @@
 	left: 159px;
 	top: 15px;
 }
-#Ellipse_9_ {
+#Ellipse_9_b {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_ {
+.Ellipse_9_b {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -567,7 +579,7 @@
 	font-size: 16px;
 	color: rgba(114,114,114,1);
 }
-#INTERMEDIATED_ {
+#INTERMEDIATED_d {
 	left: 42px;
 	top: 223px;
 	position: absolute;
@@ -593,8 +605,715 @@
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 1458px;
-	top: 373px;
+	left: 1220px;
+	top: 102.397px;
+	overflow: visible;
+}
+#Rectangle_18_g {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_g {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_h {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_h {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_i {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_i {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_j {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_j {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_k {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_k {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#CSS3 {
+	left: 93px;
+	top: 193.574px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_m {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#css {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-cpp {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 0px;
+	top: 418.397px;
+	overflow: visible;
+}
+#Rectangle_18_q {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_q {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_r {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_r {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_s {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_s {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_t {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_t {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_u {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_u {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#C {
+	left: 98px;
+	top: 192.574px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_v {
+	left: 63px;
+	top: 220px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#c {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-react {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 305px;
+	top: 418.397px;
+	overflow: visible;
+}
+#Rectangle_18_z {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_z {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_a {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_a {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_b {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_b {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_b {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_b {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_a {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_a {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#React {
+	left: 96px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#react {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 73px;
+	overflow: visible;
+}
+#BEGINNER_ {
+	left: 66px;
+	top: 225px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#skill_card-node {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 610px;
+	top: 418.397px;
+	overflow: visible;
+}
+#Rectangle_18_a {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_a {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_b {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_b {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_c {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_c {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_c {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_c {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_c {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_c {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#NodeJS {
+	left: 83px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_d {
+	left: 66px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#nodejs {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 71px;
+	overflow: visible;
+}
+#skill_card-bootstrap {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 915px;
+	top: 418.397px;
+	overflow: visible;
+}
+#Rectangle_18_h {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_h {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_i {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_i {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_j {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_j {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_k {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_k {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_l {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_l {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Bootstrap {
+	left: 78px;
+	top: 192.574px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_n {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#Image_1 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-mysql {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 1220px;
+	top: 418.397px;
+	overflow: visible;
+}
+#Rectangle_18_r {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_r {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_s {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_s {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_t {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_t {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_u {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_u {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_v {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_v {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#MySQL {
+	left: 93px;
+	top: 193.574px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#INTERMEDIATED_v {
+	left: 42px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(230,98,98,1);
+}
+#mysql {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 72px;
+	overflow: visible;
+}
+#skill_card-docker {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 0px;
+	top: 734.397px;
+	overflow: visible;
+}
+#Rectangle_18_b {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_b {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_c {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_c {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_d {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_d {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_d {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_d {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_d {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_d {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Docker {
+	left: 87px;
+	top: 194.574px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_a {
+	left: 63px;
+	top: 220px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#docker {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 74px;
+	overflow: visible;
+}
+#skill_card-github {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 305px;
+	top: 734.397px;
 	overflow: visible;
 }
 #Rectangle_18_c {
@@ -632,10 +1351,10 @@
 	left: 187px;
 	top: 15px;
 }
-#Ellipse_8_f {
+#Ellipse_8_e {
 	fill: rgba(163,162,168,1);
 }
-.Ellipse_8_f {
+.Ellipse_8_e {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -643,10 +1362,10 @@
 	left: 159px;
 	top: 15px;
 }
-#Ellipse_9_g {
+#Ellipse_9_e {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_g {
+.Ellipse_9_e {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -654,12 +1373,12 @@
 	left: 131.156px;
 	top: 15px;
 }
-#CSS3 {
-	left: 93px;
-	top: 193.574px;
+#GitHub {
+	left: 89px;
+	top: 191.574px;
 	position: absolute;
 	overflow: visible;
-	width: 41px;
+	width: 53px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
@@ -668,9 +1387,17 @@
 	font-size: 16px;
 	color: rgba(114,114,114,1);
 }
-#INTERMEDIATED_i {
-	left: 42px;
-	top: 223px;
+#github {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 73px;
+	overflow: visible;
+}
+#INTERMEDIATED_e {
+	left: 45px;
+	top: 221px;
 	position: absolute;
 	overflow: visible;
 	width: 142px;
@@ -682,26 +1409,18 @@
 	font-size: 18px;
 	color: rgba(230,98,98,1);
 }
-#css {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 63px;
-	top: 72px;
-	overflow: visible;
-}
-#skill_card-cpp {
+#skill_card-tableau {
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 238px;
-	top: 689px;
+	left: 610px;
+	top: 734.397px;
 	overflow: visible;
 }
-#Rectangle_18_m {
+#Rectangle_18_i {
 	fill: rgba(255,255,255,1);
 }
-.Rectangle_18_m {
+.Rectangle_18_i {
 	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -710,11 +1429,11 @@
 	left: 0px;
 	top: 0px;
 }
-#Rectangle_19_n {
+#Rectangle_19_j {
 	opacity: 0.2;
 	fill: rgba(64,25,28,1);
 }
-.Rectangle_19_n {
+.Rectangle_19_j {
 	position: absolute;
 	overflow: visible;
 	width: 225px;
@@ -722,10 +1441,10 @@
 	left: 0px;
 	top: 0px;
 }
-#Ellipse_7_o {
+#Ellipse_7_k {
 	fill: rgba(224,85,85,1);
 }
-.Ellipse_7_o {
+.Ellipse_7_k {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -733,10 +1452,10 @@
 	left: 187px;
 	top: 15px;
 }
-#Ellipse_8_p {
+#Ellipse_8_l {
 	fill: rgba(163,162,168,1);
 }
-.Ellipse_8_p {
+.Ellipse_8_l {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -744,10 +1463,10 @@
 	left: 159px;
 	top: 15px;
 }
-#Ellipse_9_q {
+#Ellipse_9_m {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_q {
+.Ellipse_9_m {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -755,12 +1474,12 @@
 	left: 131.156px;
 	top: 15px;
 }
-#C {
-	left: 98px;
+#Tableau {
+	left: 85px;
 	top: 192.574px;
 	position: absolute;
 	overflow: visible;
-	width: 32px;
+	width: 58px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
@@ -769,9 +1488,17 @@
 	font-size: 16px;
 	color: rgba(114,114,114,1);
 }
-#BEGINNER_r {
+#Image_2 {
+	position: absolute;
+	width: 100px;
+	height: 98.68px;
 	left: 63px;
-	top: 220px;
+	top: 72px;
+	overflow: visible;
+}
+#BEGINNER_n {
+	left: 66px;
+	top: 222px;
 	position: absolute;
 	overflow: visible;
 	width: 94px;
@@ -783,20 +1510,471 @@
 	font-size: 18px;
 	color: rgba(98,139,230,1);
 }
-#c {
+#Professional_Skills_o {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(217,171,171,1);
+}
+#skill_card-tableau_p {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 915px;
+	top: 734.397px;
+	overflow: visible;
+}
+#Rectangle_18_s {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_s {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_t {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_t {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_u {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_u {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_v {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_v {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_w {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_w {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#django {
+	left: 85px;
+	top: 192.574px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#BEGINNER_w {
+	left: 66px;
+	top: 222px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(98,139,230,1);
+}
+#Image_4 {
 	position: absolute;
 	width: 100px;
 	height: 100px;
 	left: 63px;
-	top: 72px;
+	top: 71px;
 	overflow: visible;
 }
-#skill_card-react {
+#Personal_Skills {
+	position: absolute;
+	width: 1445px;
+	height: 375.397px;
+	left: 238px;
+	top: 1449.603px;
+	overflow: visible;
+}
+#skill_card-communication {
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 543px;
-	top: 689px;
+	left: 0px;
+	top: 107.397px;
+	overflow: visible;
+}
+#Rectangle_18_d {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_d {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_e {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_e {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_f {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_f {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_f {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_f {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_f {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_f {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Communication {
+	left: 57px;
+	top: 191.574px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#chat {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 64px;
+	top: 80px;
+	overflow: visible;
+}
+#skills_ {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 231px;
+	overflow: visible;
+}
+#Ellipse_12 {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_12 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13 {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_13 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14 {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_14 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15 {
+	fill: rgba(244,231,231,1);
+}
+.Ellipse_15 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16 {
+	fill: rgba(244,231,231,1);
+}
+.Ellipse_16 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17 {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_17 {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#skill_card-organisation {
+	position: absolute;
+	width: 530px;
+	height: 375.397px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_18_f {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_f {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 305px;
+	top: 107.397px;
+}
+#Rectangle_19_g {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_g {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 305px;
+	top: 107.397px;
+}
+#Ellipse_7_h {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_h {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 492px;
+	top: 122.397px;
+}
+#Ellipse_8_i {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_i {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 464px;
+	top: 122.397px;
+}
+#Ellipse_9_j {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_j {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 436.156px;
+	top: 122.397px;
+}
+#Organisation {
+	left: 370px;
+	top: 303.971px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#connection {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 372px;
+	top: 187.397px;
+	overflow: visible;
+}
+#skills_m {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 338.156px;
+	top: 338.397px;
+	overflow: visible;
+}
+#Ellipse_12_n {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_12_n {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_o {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_13_o {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_p {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_14_p {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_q {
+	fill: rgba(244,231,231,1);
+}
+.Ellipse_15_q {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_r {
+	fill: rgba(244,231,231,1);
+}
+.Ellipse_16_r {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_s {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_17_s {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#Personal_Skills_t {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(217,171,171,1);
+}
+#skill_card-teamwork {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 610px;
+	top: 107.397px;
 	overflow: visible;
 }
 #Rectangle_18_v {
@@ -856,12 +2034,12 @@
 	left: 131.156px;
 	top: 15px;
 }
-#React {
-	left: 96px;
-	top: 196.574px;
+#Teamwork {
+	left: 75px;
+	top: 198.574px;
 	position: absolute;
 	overflow: visible;
-	width: 41px;
+	width: 75px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
@@ -870,40 +2048,100 @@
 	font-size: 16px;
 	color: rgba(114,114,114,1);
 }
-#react {
+#united {
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	left: 63px;
-	top: 73px;
+	left: 62px;
+	top: 72px;
 	overflow: visible;
 }
-#BEGINNER_ {
-	left: 66px;
-	top: 225px;
+#skills_a {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 231px;
+	overflow: visible;
+}
+#Ellipse_12_ {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_12_ {
 	position: absolute;
 	overflow: visible;
-	width: 94px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(98,139,230,1);
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
 }
-#skill_card-node {
+#Ellipse_13_ {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_13_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_ {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_14_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_ {
+	fill: rgba(244,231,231,1);
+}
+.Ellipse_15_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_ {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_16_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_ {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_17_ {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#skill_card-time {
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 848px;
-	top: 689px;
+	left: 915px;
+	top: 107.397px;
 	overflow: visible;
 }
-#Rectangle_18_a {
+#Rectangle_18_e {
 	fill: rgba(255,255,255,1);
 }
-.Rectangle_18_a {
+.Rectangle_18_e {
 	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -912,11 +2150,11 @@
 	left: 0px;
 	top: 0px;
 }
-#Rectangle_19_a {
+#Rectangle_19_f {
 	opacity: 0.2;
 	fill: rgba(64,25,28,1);
 }
-.Rectangle_19_a {
+.Rectangle_19_f {
 	position: absolute;
 	overflow: visible;
 	width: 225px;
@@ -924,111 +2162,10 @@
 	left: 0px;
 	top: 0px;
 }
-#Ellipse_7_a {
+#Ellipse_7_g {
 	fill: rgba(224,85,85,1);
 }
-.Ellipse_7_a {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 187px;
-	top: 15px;
-}
-#Ellipse_8_a {
-	fill: rgba(163,162,168,1);
-}
-.Ellipse_8_a {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 159px;
-	top: 15px;
-}
-#Ellipse_9_a {
-	fill: rgba(66,199,82,1);
-}
-.Ellipse_9_a {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 131.156px;
-	top: 15px;
-}
-#NodeJS {
-	left: 83px;
-	top: 196.574px;
-	position: absolute;
-	overflow: visible;
-	width: 59px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(114,114,114,1);
-}
-#BEGINNER_a {
-	left: 66px;
-	top: 223px;
-	position: absolute;
-	overflow: visible;
-	width: 94px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(98,139,230,1);
-}
-#nodejs {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 63px;
-	top: 71px;
-	overflow: visible;
-}
-#skill_card-bootstrap {
-	position: absolute;
-	width: 225px;
-	height: 268px;
-	left: 1153px;
-	top: 689px;
-	overflow: visible;
-}
-#Rectangle_18_d {
-	fill: rgba(255,255,255,1);
-}
-.Rectangle_18_d {
-	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
-	position: absolute;
-	overflow: visible;
-	width: 243px;
-	height: 286px;
-	left: 0px;
-	top: 0px;
-}
-#Rectangle_19_e {
-	opacity: 0.2;
-	fill: rgba(64,25,28,1);
-}
-.Rectangle_19_e {
-	position: absolute;
-	overflow: visible;
-	width: 225px;
-	height: 51px;
-	left: 0px;
-	top: 0px;
-}
-#Ellipse_7_f {
-	fill: rgba(224,85,85,1);
-}
-.Ellipse_7_f {
+.Ellipse_7_g {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -1047,10 +2184,10 @@
 	left: 159px;
 	top: 15px;
 }
-#Ellipse_9_h {
+#Ellipse_9_g {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_h {
+.Ellipse_9_g {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -1058,12 +2195,12 @@
 	left: 131.156px;
 	top: 15px;
 }
-#Bootstrap {
-	left: 78px;
-	top: 192.574px;
+#Time_Keeping {
+	left: 64px;
+	top: 197.574px;
 	position: absolute;
 	overflow: visible;
-	width: 70px;
+	width: 99px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
@@ -1072,40 +2209,100 @@
 	font-size: 16px;
 	color: rgba(114,114,114,1);
 }
-#INTERMEDIATED_j {
-	left: 42px;
-	top: 223px;
-	position: absolute;
-	overflow: visible;
-	width: 142px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(230,98,98,1);
-}
-#Image_1 {
+#calendar {
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	left: 63px;
-	top: 72px;
+	left: 62px;
+	top: 71px;
 	overflow: visible;
 }
-#skill_card-mysql {
+#skills_h {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 231px;
+	overflow: visible;
+}
+#Ellipse_12_i {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_12_i {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_j {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_13_j {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_k {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_14_k {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_l {
+	fill: rgba(244,231,231,1);
+}
+.Ellipse_15_l {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_m {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_16_m {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_n {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_17_n {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#skill_card-adapt {
 	position: absolute;
 	width: 225px;
 	height: 268px;
-	left: 1458px;
-	top: 689px;
+	left: 1220px;
+	top: 107.397px;
 	overflow: visible;
 }
-#Rectangle_18_n {
+#Rectangle_18_t {
 	fill: rgba(255,255,255,1);
 }
-.Rectangle_18_n {
+.Rectangle_18_t {
 	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -1114,11 +2311,11 @@
 	left: 0px;
 	top: 0px;
 }
-#Rectangle_19_o {
+#Rectangle_19_u {
 	opacity: 0.2;
 	fill: rgba(64,25,28,1);
 }
-.Rectangle_19_o {
+.Rectangle_19_u {
 	position: absolute;
 	overflow: visible;
 	width: 225px;
@@ -1126,10 +2323,10 @@
 	left: 0px;
 	top: 0px;
 }
-#Ellipse_7_p {
+#Ellipse_7_v {
 	fill: rgba(224,85,85,1);
 }
-.Ellipse_7_p {
+.Ellipse_7_v {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -1137,10 +2334,10 @@
 	left: 187px;
 	top: 15px;
 }
-#Ellipse_8_q {
+#Ellipse_8_w {
 	fill: rgba(163,162,168,1);
 }
-.Ellipse_8_q {
+.Ellipse_8_w {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -1148,10 +2345,10 @@
 	left: 159px;
 	top: 15px;
 }
-#Ellipse_9_r {
+#Ellipse_9_x {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_r {
+.Ellipse_9_x {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
@@ -1159,214 +2356,12 @@
 	left: 131.156px;
 	top: 15px;
 }
-#MySQL {
-	left: 93px;
-	top: 193.574px;
-	position: absolute;
-	overflow: visible;
-	width: 56px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(114,114,114,1);
-}
-#INTERMEDIATED_r {
-	left: 42px;
-	top: 223px;
-	position: absolute;
-	overflow: visible;
-	width: 142px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(230,98,98,1);
-}
-#mysql {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 63px;
-	top: 72px;
-	overflow: visible;
-}
-#skill_card-docker {
-	position: absolute;
-	width: 225px;
-	height: 268px;
-	left: 238px;
-	top: 1005px;
-	overflow: visible;
-}
-#Rectangle_18_w {
-	fill: rgba(255,255,255,1);
-}
-.Rectangle_18_w {
-	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
-	position: absolute;
-	overflow: visible;
-	width: 243px;
-	height: 286px;
-	left: 0px;
-	top: 0px;
-}
-#Rectangle_19_x {
-	opacity: 0.2;
-	fill: rgba(64,25,28,1);
-}
-.Rectangle_19_x {
-	position: absolute;
-	overflow: visible;
-	width: 225px;
-	height: 51px;
-	left: 0px;
-	top: 0px;
-}
-#Ellipse_7_y {
-	fill: rgba(224,85,85,1);
-}
-.Ellipse_7_y {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 187px;
-	top: 15px;
-}
-#Ellipse_8_z {
-	fill: rgba(163,162,168,1);
-}
-.Ellipse_8_z {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 159px;
-	top: 15px;
-}
-#Ellipse_9_b {
-	fill: rgba(66,199,82,1);
-}
-.Ellipse_9_b {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 131.156px;
-	top: 15px;
-}
-#Docker {
-	left: 87px;
-	top: 194.574px;
-	position: absolute;
-	overflow: visible;
-	width: 53px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(114,114,114,1);
-}
-#BEGINNER_b {
-	left: 63px;
-	top: 220px;
-	position: absolute;
-	overflow: visible;
-	width: 94px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(98,139,230,1);
-}
-#docker {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 63px;
-	top: 74px;
-	overflow: visible;
-}
-#skill_card-github {
-	position: absolute;
-	width: 225px;
-	height: 268px;
-	left: 543px;
-	top: 1005px;
-	overflow: visible;
-}
-#Rectangle_18_b {
-	fill: rgba(255,255,255,1);
-}
-.Rectangle_18_b {
-	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
-	position: absolute;
-	overflow: visible;
-	width: 243px;
-	height: 286px;
-	left: 0px;
-	top: 0px;
-}
-#Rectangle_19_b {
-	opacity: 0.2;
-	fill: rgba(64,25,28,1);
-}
-.Rectangle_19_b {
-	position: absolute;
-	overflow: visible;
-	width: 225px;
-	height: 51px;
-	left: 0px;
-	top: 0px;
-}
-#Ellipse_7_b {
-	fill: rgba(224,85,85,1);
-}
-.Ellipse_7_b {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 187px;
-	top: 15px;
-}
-#Ellipse_8_b {
-	fill: rgba(163,162,168,1);
-}
-.Ellipse_8_b {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 159px;
-	top: 15px;
-}
-#Ellipse_9_c {
-	fill: rgba(66,199,82,1);
-}
-.Ellipse_9_c {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 131.156px;
-	top: 15px;
-}
-#GitHub {
-	left: 89px;
+#Adaptability {
+	left: 68px;
 	top: 196.574px;
 	position: absolute;
 	overflow: visible;
-	width: 53px;
+	width: 90px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
@@ -1375,7 +2370,1077 @@
 	font-size: 16px;
 	color: rgba(114,114,114,1);
 }
-#github {
+#adaptation {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 63px;
+	top: 80px;
+	overflow: visible;
+}
+#skills_w {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 228px;
+	overflow: visible;
+}
+#Ellipse_12_x {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_12_x {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_y {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_13_y {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_z {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_14_z {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_baa {
+	fill: rgba(244,231,231,1);
+}
+.Ellipse_15_baa {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_baa {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_16_baa {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_baa {
+	fill: rgba(255,209,92,1);
+}
+.Ellipse_17_baa {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#Additional_Skills {
+	position: absolute;
+	width: 1445px;
+	height: 375.397px;
+	left: 238px;
+	top: 1911.603px;
+	overflow: visible;
+}
+#skill_card-ps {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 0px;
+	top: 107.397px;
+	overflow: visible;
+}
+#Rectangle_18_baa {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_baa {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_baa {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_baa {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_baa {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_baa {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_baa {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_baa {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_baa {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_baa {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Photoshop {
+	left: 76px;
+	top: 194.574px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#skills_bab {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 231px;
+	overflow: visible;
+}
+#Ellipse_12_bac {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_12_bac {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_bad {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_13_bad {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_bae {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_14_bae {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_baf {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_15_baf {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_bag {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_16_bag {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_bah {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_17_bah {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#photoshop {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 64px;
+	top: 80px;
+	overflow: visible;
+}
+#skill_card-lr {
+	position: absolute;
+	width: 530px;
+	height: 375.397px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_18_bak {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_bak {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 305px;
+	top: 107.397px;
+}
+#Rectangle_19_bal {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_bal {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 305px;
+	top: 107.397px;
+}
+#Ellipse_7_bam {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bam {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 492px;
+	top: 122.397px;
+}
+#Ellipse_8_ban {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_ban {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 464px;
+	top: 122.397px;
+}
+#Ellipse_9_bao {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bao {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 436.156px;
+	top: 122.397px;
+}
+#Lightroom {
+	left: 382px;
+	top: 304.971px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#skills_baq {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 338.156px;
+	top: 338.397px;
+	overflow: visible;
+}
+#Ellipse_12_bar {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_12_bar {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_bas {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_13_bas {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_bat {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_14_bat {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_bau {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_15_bau {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_bav {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_16_bav {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_baw {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_17_baw {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#Additional_Skills_bax {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 291px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(217,171,171,1);
+}
+#lightroom {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 368px;
+	top: 184.397px;
+	overflow: visible;
+}
+#skill_card-ai {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 610px;
+	top: 107.397px;
+	overflow: visible;
+}
+#Rectangle_18_ba {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_ba {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_ba {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_ba {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_ba {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_ba {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_ba {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_ba {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_ba {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_ba {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Illustrator {
+	left: 78px;
+	top: 198.574px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#illustrator {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 62px;
+	top: 78px;
+	overflow: visible;
+}
+#skills_ba {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 231px;
+	overflow: visible;
+}
+#Ellipse_12_ba {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_12_ba {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_ba {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_13_ba {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_bba {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_14_bba {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_bbb {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_15_bbb {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_bbc {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_16_bbc {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_bbd {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_17_bbd {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#skill_card-xd {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 915px;
+	top: 107.397px;
+	overflow: visible;
+}
+#Rectangle_18_bbf {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_bbf {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_bbg {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_bbg {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_bbh {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bbh {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_bbi {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_bbi {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_bbj {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bbj {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Xd {
+	left: 101px;
+	top: 197.574px;
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#skills_bbl {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 231px;
+	overflow: visible;
+}
+#Ellipse_12_bbm {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_12_bbm {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_bbn {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_13_bbn {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_bbo {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_14_bbo {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_bbp {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_15_bbp {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_bbq {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_16_bbq {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_bbr {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_17_bbr {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#experience {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 61px;
+	top: 75px;
+	overflow: visible;
+}
+#skill_card-figma {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 1220px;
+	top: 107.397px;
+	overflow: visible;
+}
+#Rectangle_18_bbu {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_bbu {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_bbv {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_bbv {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_bbw {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bbw {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_bbx {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_bbx {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_bby {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bby {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#Figma {
+	left: 90px;
+	top: 196.574px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#skills_bb {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 228px;
+	overflow: visible;
+}
+#Ellipse_12_bb {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_12_bb {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_bb {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_13_bb {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_bb {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_14_bb {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_bb {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_15_bb {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_bb {
+	fill: rgba(200,216,226,1);
+}
+.Ellipse_16_bb {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_bb {
+	fill: rgba(87,163,211,1);
+}
+.Ellipse_17_bb {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#Image_3 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 67px;
+	top: 80px;
+	overflow: visible;
+}
+#Languages {
+	position: absolute;
+	width: 530px;
+	height: 375.397px;
+	left: 238px;
+	top: 2373.603px;
+	overflow: visible;
+}
+#skill_card-en {
+	position: absolute;
+	width: 225px;
+	height: 268px;
+	left: 0px;
+	top: 107.397px;
+	overflow: visible;
+}
+#Rectangle_18_bca {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18_bca {
+	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_19_bcb {
+	opacity: 0.2;
+	fill: rgba(64,25,28,1);
+}
+.Rectangle_19_bcb {
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_7_bcc {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bcc {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 187px;
+	top: 15px;
+}
+#Ellipse_8_bcd {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_bcd {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 159px;
+	top: 15px;
+}
+#Ellipse_9_bce {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bce {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 131.156px;
+	top: 15px;
+}
+#English {
+	left: 87px;
+	top: 176.574px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(114,114,114,1);
+}
+#skills_bcg {
+	position: absolute;
+	width: 159.844px;
+	height: 20px;
+	left: 32.156px;
+	top: 231px;
+	overflow: visible;
+}
+#Ellipse_12_bch {
+	fill: rgba(105,105,217,1);
+}
+.Ellipse_12_bch {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_bci {
+	fill: rgba(105,105,217,1);
+}
+.Ellipse_13_bci {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_bcj {
+	fill: rgba(105,105,217,1);
+}
+.Ellipse_14_bcj {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_bck {
+	fill: rgba(216,216,234,1);
+}
+.Ellipse_15_bck {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_bcl {
+	fill: rgba(216,216,234,1);
+}
+.Ellipse_16_bcl {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_bcm {
+	fill: rgba(105,105,217,1);
+}
+.Ellipse_17_bcm {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#english-language {
 	position: absolute;
 	width: 100px;
 	height: 100px;
@@ -1383,304 +3448,88 @@
 	top: 73px;
 	overflow: visible;
 }
-#skill_card-node_a {
+#Advanced {
+	left: 81px;
+	top: 201px;
 	position: absolute;
-	width: 225px;
-	height: 268px;
-	left: 848px;
-	top: 1005px;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(144,144,217,1);
+}
+#skill_card-cn {
+	position: absolute;
+	width: 530px;
+	height: 375.397px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
 }
-#Rectangle_18_e {
+#Rectangle_18_bcq {
 	fill: rgba(255,255,255,1);
 }
-.Rectangle_18_e {
+.Rectangle_18_bcq {
 	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
 	width: 243px;
 	height: 286px;
-	left: 0px;
-	top: 0px;
+	left: 305px;
+	top: 107.397px;
 }
-#Rectangle_19_c {
+#Rectangle_19_bcr {
 	opacity: 0.2;
 	fill: rgba(64,25,28,1);
 }
-.Rectangle_19_c {
+.Rectangle_19_bcr {
 	position: absolute;
 	overflow: visible;
 	width: 225px;
 	height: 51px;
-	left: 0px;
-	top: 0px;
+	left: 305px;
+	top: 107.397px;
 }
-#Ellipse_7_d {
+#Ellipse_7_bcs {
 	fill: rgba(224,85,85,1);
 }
-.Ellipse_7_d {
+.Ellipse_7_bcs {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
 	height: 20px;
-	left: 187px;
-	top: 15px;
+	left: 492px;
+	top: 122.397px;
 }
-#Ellipse_8_e {
+#Ellipse_8_bct {
 	fill: rgba(163,162,168,1);
 }
-.Ellipse_8_e {
+.Ellipse_8_bct {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
 	height: 20px;
-	left: 159px;
-	top: 15px;
+	left: 464px;
+	top: 122.397px;
 }
-#Ellipse_9_f {
+#Ellipse_9_bcu {
 	fill: rgba(66,199,82,1);
 }
-.Ellipse_9_f {
+.Ellipse_9_bcu {
 	position: absolute;
 	overflow: visible;
 	width: 20px;
 	height: 20px;
-	left: 131.156px;
-	top: 15px;
+	left: 436.156px;
+	top: 122.397px;
 }
-#NodeJS_g {
-	left: 83px;
-	top: 196.574px;
-	position: absolute;
-	overflow: visible;
-	width: 59px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(114,114,114,1);
-}
-#BEGINNER_h {
-	left: 66px;
-	top: 223px;
-	position: absolute;
-	overflow: visible;
-	width: 94px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(98,139,230,1);
-}
-#nodejs_i {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 63px;
-	top: 71px;
-	overflow: visible;
-}
-#skill_card-bootstrap_j {
-	position: absolute;
-	width: 790px;
-	height: 268px;
-	left: 588px;
-	top: 1005px;
-	overflow: visible;
-}
-#Rectangle_18_k {
-	fill: rgba(255,255,255,1);
-}
-.Rectangle_18_k {
-	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
-	position: absolute;
-	overflow: visible;
-	width: 243px;
-	height: 286px;
-	left: 565px;
-	top: 0px;
-}
-#Rectangle_19_l {
-	opacity: 0.2;
-	fill: rgba(64,25,28,1);
-}
-.Rectangle_19_l {
-	position: absolute;
-	overflow: visible;
-	width: 225px;
-	height: 51px;
-	left: 565px;
-	top: 0px;
-}
-#Ellipse_7_m {
-	fill: rgba(224,85,85,1);
-}
-.Ellipse_7_m {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 752px;
-	top: 15px;
-}
-#Ellipse_8_n {
-	fill: rgba(163,162,168,1);
-}
-.Ellipse_8_n {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 724px;
-	top: 15px;
-}
-#Ellipse_9_o {
-	fill: rgba(66,199,82,1);
-}
-.Ellipse_9_o {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 696.156px;
-	top: 15px;
-}
-#Bootstrap_p {
-	left: 643px;
-	top: 192.574px;
-	position: absolute;
-	overflow: visible;
-	width: 70px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	color: rgba(114,114,114,1);
-}
-#INTERMEDIATED_t {
-	left: 607px;
-	top: 223px;
-	position: absolute;
-	overflow: visible;
-	width: 142px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(230,98,98,1);
-}
-#Image_1_r {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	left: 628px;
-	top: 72px;
-	overflow: visible;
-}
-#INTERMEDIATED_t {
-	left: 607px;
-	top: 223px;
-	position: absolute;
-	overflow: visible;
-	width: 142px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(230,98,98,1);
-}
-#INTERMEDIATED_u {
-	left: 0px;
-	top: 223px;
-	position: absolute;
-	overflow: visible;
-	width: 142px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Futura;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	color: rgba(230,98,98,1);
-}
-#skill_card-tableau {
-	position: absolute;
-	width: 225px;
-	height: 268px;
-	left: 1458px;
-	top: 1005px;
-	overflow: visible;
-}
-#Rectangle_18_x {
-	fill: rgba(255,255,255,1);
-}
-.Rectangle_18_x {
-	filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
-	position: absolute;
-	overflow: visible;
-	width: 243px;
-	height: 286px;
-	left: 0px;
-	top: 0px;
-}
-#Rectangle_19_y {
-	opacity: 0.2;
-	fill: rgba(64,25,28,1);
-}
-.Rectangle_19_y {
-	position: absolute;
-	overflow: visible;
-	width: 225px;
-	height: 51px;
-	left: 0px;
-	top: 0px;
-}
-#Ellipse_7_z {
-	fill: rgba(224,85,85,1);
-}
-.Ellipse_7_z {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 187px;
-	top: 15px;
-}
-#Ellipse_8_c {
-	fill: rgba(163,162,168,1);
-}
-.Ellipse_8_c {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 159px;
-	top: 15px;
-}
-#Ellipse_9_d {
-	fill: rgba(66,199,82,1);
-}
-.Ellipse_9_d {
-	position: absolute;
-	overflow: visible;
-	width: 20px;
-	height: 20px;
-	left: 131.156px;
-	top: 15px;
-}
-#Tableau {
-	left: 85px;
-	top: 192.574px;
+#Chinese {
+	left: 389px;
+	top: 286.971px;
 	position: absolute;
 	overflow: visible;
 	width: 58px;
@@ -1692,25 +3541,113 @@
 	font-size: 16px;
 	color: rgba(114,114,114,1);
 }
-#Image_2 {
+#skills_bcw {
 	position: absolute;
-	width: 100px;
-	height: 98.68px;
-	left: 63px;
-	top: 72px;
+	width: 159.844px;
+	height: 20px;
+	left: 338.156px;
+	top: 338.397px;
 	overflow: visible;
 }
-#BEGINNER_c {
-	left: 66px;
-	top: 222px;
+#Ellipse_12_bcx {
+	fill: rgba(216,216,234,1);
+}
+.Ellipse_12_bcx {
 	position: absolute;
 	overflow: visible;
-	width: 94px;
+	width: 20px;
+	height: 20px;
+	left: 55.844px;
+	top: 0px;
+}
+#Ellipse_13_bcy {
+	fill: rgba(105,105,217,1);
+}
+.Ellipse_13_bcy {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 27.844px;
+	top: 0px;
+}
+#Ellipse_14_bcz {
+	fill: rgba(105,105,217,1);
+}
+.Ellipse_14_bcz {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_15_bc {
+	fill: rgba(216,216,234,1);
+}
+.Ellipse_15_bc {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 139.844px;
+	top: 0px;
+}
+#Ellipse_16_bc {
+	fill: rgba(216,216,234,1);
+}
+.Ellipse_16_bc {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 111.844px;
+	top: 0px;
+}
+#Ellipse_17_bc {
+	fill: rgba(216,216,234,1);
+}
+.Ellipse_17_bc {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 84px;
+	top: 0px;
+}
+#Languages_bc {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	color: rgba(98,139,230,1);
+	font-size: 40px;
+	color: rgba(217,171,171,1);
+}
+#chinese-language {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 373px;
+	top: 177.397px;
+	overflow: visible;
+}
+#Basic {
+	left: 405px;
+	top: 310.397px;
+	position: absolute;
+	overflow: visible;
+	width: 34px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(144,144,217,1);
 }
