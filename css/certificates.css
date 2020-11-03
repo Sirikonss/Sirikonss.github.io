@@ -18,7 +18,7 @@
 #certificates {
 	position: absolute;
 	width: 1920px;
-	height: 1080px;
+	height: 4623px;
 	background-color: rgba(245,239,239,1);
 	overflow: hidden;
 	--web-view-name: certificates;
@@ -28,21 +28,35 @@
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
-#Nav_bey {
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Nav_be {
 	position: absolute;
 	width: 1554px;
-	height: 523px;
+	height: 66.667px;
 	left: 202px;
 	top: 82px;
 	overflow: visible;
 }
-#Home_bez {
+#Home_be {
 	left: 943px;
 	top: 18px;
 	position: absolute;
 	overflow: visible;
 	width: 65px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: home.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
@@ -57,6 +71,10 @@
 	overflow: visible;
 	width: 70px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: works.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
@@ -85,6 +103,10 @@
 	overflow: visible;
 	width: 55px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: skills.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
@@ -126,10 +148,10 @@
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-code_be {
+#Icon_awesome-code_bfa {
 	fill: rgba(213,140,140,1);
 }
-.Icon_awesome-code_be {
+.Icon_awesome-code_bfa {
 	overflow: visible;
 	position: absolute;
 	width: 45.004px;
@@ -138,17 +160,1268 @@
 	top: 11px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#COMING_SOON_ {
-	left: 518px;
-	top: 458px;
+#window-management {
+	position: absolute;
+	width: 1530px;
+	height: 1116px;
+	left: 199px;
+	top: 295px;
+	overflow: visible;
+}
+#window {
+	fill: rgba(255,255,255,1);
+}
+.window {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.4));
 	position: absolute;
 	overflow: visible;
-	width: 482px;
+	width: 1560px;
+	height: 1146px;
+	left: 0px;
+	top: 0px;
+}
+#cer_criticalforbus {
+	position: absolute;
+	width: 600px;
+	height: 421.152px;
+	left: 134px;
+	top: 179px;
+	overflow: visible;
+}
+#cer_understand_inancial {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 783px;
+	top: 179px;
+	overflow: visible;
+}
+#certificate_HRM {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 134px;
+	top: 627px;
+	overflow: visible;
+}
+#certificate_lawforbusiness {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 783px;
+	top: 627px;
+	overflow: visible;
+}
+#tabbar {
+	position: absolute;
+	width: 1530px;
+	height: 166px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_63 {
+	fill: rgba(39,170,224,0.2);
+}
+.Rectangle_63 {
+	position: absolute;
+	overflow: visible;
+	width: 1530px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_64 {
+	fill: rgba(87,163,211,0.102);
+}
+.Rectangle_64 {
+	position: absolute;
+	overflow: visible;
+	width: 1530px;
+	height: 82px;
+	left: 0px;
+	top: 84px;
+}
+#Rectangle_62 {
+	fill: rgba(114,114,114,0.102);
+}
+.Rectangle_62 {
+	position: absolute;
+	overflow: visible;
+	width: 1204px;
+	height: 51px;
+	left: 179px;
+	top: 100px;
+}
+#dot {
+	position: absolute;
+	width: 117.098px;
+	height: 30px;
+	left: 1382.902px;
+	top: 28px;
+	overflow: visible;
+}
+#Ellipse_7_bfm {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bfm {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 87.098px;
+	top: 0px;
+}
+#Ellipse_8_bfn {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_bfn {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 43.098px;
+	top: 0px;
+}
+#Ellipse_9_bfo {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bfo {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_feather-arrow-left {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 37px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_592 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_592 {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_593 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_593 {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_feather-arrow-right {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 81.8px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_594 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_594 {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_595 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_595 {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 10.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-md-refresh {
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-md-refresh {
+	overflow: visible;
+	position: absolute;
+	width: 24.75px;
+	height: 24.75px;
+	left: 126.475px;
+	top: 115.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#user {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1406px;
+	top: 105px;
+	overflow: visible;
+}
+#option {
+	position: absolute;
+	width: 6px;
+	height: 30px;
+	left: 1469px;
+	top: 111px;
+	overflow: visible;
+}
+#Ellipse_19 {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_19 {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_20 {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_20 {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 12px;
+}
+#Ellipse_21 {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_21 {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 24px;
+}
+#Management {
+	left: 249px;
+	top: 110px;
+	position: absolute;
+	overflow: visible;
+	width: 158px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 50px;
-	color: rgba(206,118,118,1);
+	font-size: 26px;
+	color: rgba(83,83,83,1);
+}
+#Icon_ionic-ios-lock {
+	opacity: 0.8;
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-lock {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 23.4px;
+	left: 208.75px;
+	top: 113.374px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Certificates_bf {
+	left: 693px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(24,103,136,1);
+}
+#window-it {
+	position: absolute;
+	width: 1530px;
+	height: 673px;
+	left: 192px;
+	top: 1558px;
+	overflow: visible;
+}
+#window_bf {
+	fill: rgba(255,255,255,1);
+}
+.window_bf {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.4));
+	position: absolute;
+	overflow: visible;
+	width: 1560px;
+	height: 703px;
+	left: 0px;
+	top: 0px;
+}
+#tabbar_bf {
+	position: absolute;
+	width: 1530px;
+	height: 166px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_63_bf {
+	fill: rgba(247,150,35,0.2);
+}
+.Rectangle_63_bf {
+	position: absolute;
+	overflow: visible;
+	width: 1530px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_64_bf {
+	fill: rgba(247,150,35,0.102);
+}
+.Rectangle_64_bf {
+	position: absolute;
+	overflow: visible;
+	width: 1530px;
+	height: 82px;
+	left: 0px;
+	top: 84px;
+}
+#Rectangle_62_bf {
+	fill: rgba(114,114,114,0.102);
+}
+.Rectangle_62_bf {
+	position: absolute;
+	overflow: visible;
+	width: 1204px;
+	height: 51px;
+	left: 179px;
+	top: 100px;
+}
+#dot_bga {
+	position: absolute;
+	width: 117.098px;
+	height: 30px;
+	left: 1382.902px;
+	top: 28px;
+	overflow: visible;
+}
+#Ellipse_7_bgb {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bgb {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 87.098px;
+	top: 0px;
+}
+#Ellipse_8_bgc {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_bgc {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 43.098px;
+	top: 0px;
+}
+#Ellipse_9_bgd {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bgd {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_feather-arrow-left_bge {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 37px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_592_bgf {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_592_bgf {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_593_bgg {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_593_bgg {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_feather-arrow-right_bgh {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 81.8px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_594_bgi {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_594_bgi {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_595_bgj {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_595_bgj {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 10.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-md-refresh_bgk {
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-md-refresh_bgk {
+	overflow: visible;
+	position: absolute;
+	width: 24.75px;
+	height: 24.75px;
+	left: 126.475px;
+	top: 115.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#user_bgl {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1406px;
+	top: 105px;
+	overflow: visible;
+}
+#option_bgm {
+	position: absolute;
+	width: 6px;
+	height: 30px;
+	left: 1469px;
+	top: 111px;
+	overflow: visible;
+}
+#Ellipse_19_bgn {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_19_bgn {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_20_bgo {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_20_bgo {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 12px;
+}
+#Ellipse_21_bgp {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_21_bgp {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 24px;
+}
+#ITDataTechnology {
+	left: 249px;
+	top: 110px;
+	position: absolute;
+	overflow: visible;
+	width: 240px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(83,83,83,1);
+}
+#Icon_ionic-ios-lock_bgr {
+	opacity: 0.8;
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-lock_bgr {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 23.401px;
+	left: 208.75px;
+	top: 113.374px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Certificates_bgs {
+	left: 693px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(170,103,23,1);
+}
+#certificate_18196_344768344768 {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 135px;
+	top: 180px;
+	overflow: visible;
+}
+#IMG_6171 {
+	position: absolute;
+	width: 571px;
+	height: 403.363px;
+	left: 800px;
+	top: 201px;
+	overflow: visible;
+}
+#window-lang {
+	position: absolute;
+	width: 1530px;
+	height: 1116px;
+	left: 192px;
+	top: 2378px;
+	overflow: visible;
+}
+#window_bgw {
+	fill: rgba(255,255,255,1);
+}
+.window_bgw {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.4));
+	position: absolute;
+	overflow: visible;
+	width: 1560px;
+	height: 1146px;
+	left: 0px;
+	top: 0px;
+}
+#cer_understand_inancial_bgx {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 783px;
+	top: 179px;
+	overflow: visible;
+}
+#certificate_HRM_bgy {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 134px;
+	top: 627px;
+	overflow: visible;
+}
+#certificate_lawforbusiness_bgz {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 783px;
+	top: 627px;
+	overflow: visible;
+}
+#tabbar_bg {
+	position: absolute;
+	width: 1530px;
+	height: 166px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_63_bg {
+	fill: rgba(129,140,197,0.2);
+}
+.Rectangle_63_bg {
+	position: absolute;
+	overflow: visible;
+	width: 1530px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_64_bg {
+	fill: rgba(129,140,197,0.102);
+}
+.Rectangle_64_bg {
+	position: absolute;
+	overflow: visible;
+	width: 1530px;
+	height: 82px;
+	left: 0px;
+	top: 84px;
+}
+#Rectangle_62_bg {
+	fill: rgba(114,114,114,0.102);
+}
+.Rectangle_62_bg {
+	position: absolute;
+	overflow: visible;
+	width: 1204px;
+	height: 51px;
+	left: 179px;
+	top: 100px;
+}
+#dot_bg {
+	position: absolute;
+	width: 117.098px;
+	height: 30px;
+	left: 1382.902px;
+	top: 28px;
+	overflow: visible;
+}
+#Ellipse_7_bg {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bg {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 87.098px;
+	top: 0px;
+}
+#Ellipse_8_bg {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_bg {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 43.098px;
+	top: 0px;
+}
+#Ellipse_9_bg {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bg {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_feather-arrow-left_bg {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 37px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_592_bg {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_592_bg {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_593_bha {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_593_bha {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_feather-arrow-right_bhb {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 81.8px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_594_bhc {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_594_bhc {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_595_bhd {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_595_bhd {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 10.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-md-refresh_bhe {
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-md-refresh_bhe {
+	overflow: visible;
+	position: absolute;
+	width: 24.75px;
+	height: 24.75px;
+	left: 126.475px;
+	top: 115.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#user_bhf {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1406px;
+	top: 105px;
+	overflow: visible;
+}
+#option_bhg {
+	position: absolute;
+	width: 6px;
+	height: 30px;
+	left: 1469px;
+	top: 111px;
+	overflow: visible;
+}
+#Ellipse_19_bhh {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_19_bhh {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_20_bhi {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_20_bhi {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 12px;
+}
+#Ellipse_21_bhj {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_21_bhj {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 24px;
+}
+#Language {
+	left: 249px;
+	top: 110px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(83,83,83,1);
+}
+#Icon_ionic-ios-lock_bhl {
+	opacity: 0.8;
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-lock_bhl {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 23.4px;
+	left: 208.75px;
+	top: 113.375px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Certificates_bhm {
+	left: 693px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(24,103,136,1);
+}
+#ID12943948075664 {
+	position: absolute;
+	width: 600px;
+	height: 421.203px;
+	left: 134px;
+	top: 181px;
+	overflow: visible;
+}
+#window-other {
+	position: absolute;
+	width: 1530px;
+	height: 673px;
+	left: 192px;
+	top: 3641px;
+	overflow: visible;
+}
+#window_bhp {
+	fill: rgba(255,255,255,1);
+}
+.window_bhp {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.4));
+	position: absolute;
+	overflow: visible;
+	width: 1560px;
+	height: 703px;
+	left: 0px;
+	top: 0px;
+}
+#tabbar_bhq {
+	position: absolute;
+	width: 1530px;
+	height: 166px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_63_bhr {
+	fill: rgba(59,173,111,0.2);
+}
+.Rectangle_63_bhr {
+	position: absolute;
+	overflow: visible;
+	width: 1530px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#Path_596 {
+	fill: rgba(59,173,111,0.102);
+}
+.Path_596 {
+	overflow: visible;
+	position: absolute;
+	width: 1530px;
+	height: 82px;
+	left: 0px;
+	top: 84px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_62_bht {
+	fill: rgba(114,114,114,0.102);
+}
+.Rectangle_62_bht {
+	position: absolute;
+	overflow: visible;
+	width: 1204px;
+	height: 51px;
+	left: 179px;
+	top: 100px;
+}
+#dot_bhu {
+	position: absolute;
+	width: 117.098px;
+	height: 30px;
+	left: 1382.902px;
+	top: 28px;
+	overflow: visible;
+}
+#Ellipse_7_bhv {
+	fill: rgba(224,85,85,1);
+}
+.Ellipse_7_bhv {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 87.098px;
+	top: 0px;
+}
+#Ellipse_8_bhw {
+	fill: rgba(163,162,168,1);
+}
+.Ellipse_8_bhw {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 43.098px;
+	top: 0px;
+}
+#Ellipse_9_bhx {
+	fill: rgba(66,199,82,1);
+}
+.Ellipse_9_bhx {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_feather-arrow-left_bhy {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 37px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_592_bhz {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_592_bhz {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_593_bh {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_593_bh {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_feather-arrow-right_bh {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 81.8px;
+	top: 116px;
+	overflow: visible;
+}
+#Path_594_bh {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_594_bh {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 3px;
+	left: 0px;
+	top: 10.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_595_bh {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_595_bh {
+	overflow: visible;
+	position: absolute;
+	width: 14.121px;
+	height: 25.243px;
+	left: 10.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_ionic-md-refresh_bh {
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-md-refresh_bh {
+	overflow: visible;
+	position: absolute;
+	width: 24.75px;
+	height: 24.75px;
+	left: 126.475px;
+	top: 115.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#user_bh {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1406px;
+	top: 105px;
+	overflow: visible;
+}
+#option_bh {
+	position: absolute;
+	width: 6px;
+	height: 30px;
+	left: 1469px;
+	top: 111px;
+	overflow: visible;
+}
+#Ellipse_19_bh {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_19_bh {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_20_bh {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_20_bh {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 12px;
+}
+#Ellipse_21_bh {
+	fill: rgba(83,83,83,1);
+}
+.Ellipse_21_bh {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 6px;
+	left: 0px;
+	top: 24px;
+}
+#Others {
+	left: 249px;
+	top: 110px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(83,83,83,1);
+}
+#Icon_ionic-ios-lock_bib {
+	opacity: 0.8;
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-lock_bib {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 23.4px;
+	left: 208.75px;
+	top: 113.375px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Certificates_bic {
+	left: 693px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(170,103,23,1);
+}
+#certificate_basiclaw {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 135px;
+	top: 181px;
+	overflow: visible;
+}
+#certificate_universaldesign {
+	position: absolute;
+	width: 600px;
+	height: 421.157px;
+	left: 800px;
+	top: 181px;
+	overflow: visible;
 }

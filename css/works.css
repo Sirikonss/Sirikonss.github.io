@@ -85,6 +85,10 @@
 	overflow: visible;
 	width: 122px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: certificates.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
@@ -558,8 +562,8 @@
 	position: absolute;
 	width: 146px;
 	height: 56px;
-	left: 791px;
-	top: 2661px;
+	left: 681px;
+	top: 2666px;
 	overflow: visible;
 }
 #Rectangle_60_beg {
@@ -602,8 +606,8 @@
 	position: absolute;
 	width: 146px;
 	height: 56px;
-	left: 974px;
-	top: 2661px;
+	left: 864px;
+	top: 2666px;
 	overflow: visible;
 }
 #Rectangle_60_bek {
@@ -646,8 +650,8 @@
 	position: absolute;
 	width: 182px;
 	height: 56px;
-	left: 1157px;
-	top: 2661px;
+	left: 1047px;
+	top: 2666px;
 	overflow: visible;
 }
 #Rectangle_60_beo {
@@ -676,7 +680,7 @@
 	color: rgba(255,255,255,1);
 }
 #Ellipse_18_beq {
-	fill: rgba(11,11,11,1);
+	fill: rgba(255,255,255,1);
 }
 .Ellipse_18_beq {
 	position: absolute;
@@ -706,8 +710,8 @@
 	position: absolute;
 	width: 146px;
 	height: 56px;
-	left: 608px;
-	top: 2661px;
+	left: 498px;
+	top: 2666px;
 	overflow: visible;
 }
 #Rectangle_60_bet {
@@ -739,6 +743,50 @@
 	fill: rgba(247,205,0,1);
 }
 .Ellipse_18_bev {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+	top: 21px;
+}
+#css_bew {
+	position: absolute;
+	width: 157px;
+	height: 56px;
+	left: 1266px;
+	top: 2666px;
+	overflow: visible;
+}
+#Rectangle_60_bex {
+	fill: rgba(0,47,31,1);
+}
+.Rectangle_60_bex {
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#django_bey {
+	left: 47px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 78px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Futura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Ellipse_18_bez {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_18_bez {
 	position: absolute;
 	overflow: visible;
 	width: 15px;

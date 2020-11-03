@@ -138,7 +138,7 @@
 }
 #Nav {
 	position: absolute;
-	width: 1517px;
+	width: 1554px;
 	height: 66.667px;
 	left: 202px;
 	top: 82px;
@@ -176,13 +176,17 @@
 	font-size: 24px;
 	color: rgba(0,0,0,1);
 }
-#Contact {
+#Certificates {
 	left: 1433px;
 	top: 18px;
 	position: absolute;
 	overflow: visible;
-	width: 85px;
+	width: 122px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: certificates.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;

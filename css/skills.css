@@ -82,13 +82,17 @@
 	font-size: 24px;
 	color: rgba(0,0,0,1);
 }
-#Certificates {
+#Certificates_ {
 	left: 1433px;
 	top: 18px;
 	position: absolute;
 	overflow: visible;
 	width: 122px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: certificates.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Futura;
 	font-style: normal;
