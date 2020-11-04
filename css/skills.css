@@ -4,6 +4,7 @@
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: width;
 	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
 	--web-enable-deep-linking: true;
 }
 :root {
@@ -26,6 +27,7 @@
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: width;
 	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
 	--web-enable-deep-linking: true;
 }
 @keyframes fadein {
